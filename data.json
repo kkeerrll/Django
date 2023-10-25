@@ -1,0 +1,210 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Компьютеры и ноутбуки",
+      "text": "Аксессуары , мониторы",
+      "photo": "catalog/hpc-sborka-gaming-pc-banner_webp_a8s1QKU.jpg"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Смартфоны и гаджеты",
+      "text": "Мобильные телефоны и аксессуары",
+      "photo": "catalog/in-out-iphone-15-pro-preview.qkugifaasdfa..jpg"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Товары для геймеров",
+      "text": "Мышки, наушники, клавиатуры",
+      "photo": "catalog/19-tovarov-dlya-gejmerov-s-AliExpress-i-iz-drugih-magazinov_1589486791.jpg"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Красота и здоровье",
+      "text": "Фены, бритвы, зубные щетки",
+      "photo": "catalog/banner_122.png"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Телевизоры, аудио-видео, фото",
+      "text": "Видеотехника, проекторы, фотоаппараты",
+      "photo": "catalog/Unknown.jpeg"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Apple iPhone 15",
+      "text": "128Gb, A3092, черный",
+      "photo": "catalog/iphone-15-finish-select-202309-6-1inch-pink.jpeg",
+      "category": 2,
+      "price": 124990,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Смартфон REALME C30s",
+      "text": "3/64Gb, голубой",
+      "photo": "",
+      "category": 2,
+      "price": 6490,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Ноутбук ASUS A516JP-EJ463",
+      "text": "Intel Core i7 1065G7 1.3ГГц, 4-ядерный, 16ГБ DDR4, 512ГБ SSD, NVIDIA GeForce MX330 - 2 ГБ, без операционной системы, серебристый",
+      "photo": "catalog/600012599396b1.png.webp",
+      "category": 1,
+      "price": 54990,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Игровая консоль PlayStation 5",
+      "text": "CFI-1200A, 825ГБ",
+      "photo": "",
+      "category": 3,
+      "price": 63990,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Руль Logitech G29 Driving Force Racing",
+      "text": "для PC, PS4 / PS5 [941-000112]",
+      "photo": "",
+      "category": 3,
+      "price": 39899,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Щипцы Polaris PHS 2546K",
+      "text": "черный",
+      "photo": "",
+      "category": 4,
+      "price": 1699,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Фен Polaris PHD 2090ACi",
+      "text": "2000Вт, графит и розовое золото",
+      "photo": "",
+      "category": 4,
+      "price": 1999,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Телевизор HAIER Smart TV S3,",
+      "text": "QLED, 4K Ultra HD, серебристый, СМАРТ ТВ, Android",
+      "photo": "",
+      "category": 5,
+      "price": 38990,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Телевизор Xiaomi Mi TV A2",
+      "text": "4K Ultra HD, черный, СМАРТ ТВ, Android",
+      "photo": "",
+      "category": 5,
+      "price": 27990,
+      "data": "2023-09-28",
+      "last_modified": "2023-09-28"
+    }
+  },
+  {
+    "model": "catalog.blog",
+    "pk": 29,
+    "fields": {
+      "title": "Что показали на летней презентации Galaxy Unpacked 2023?",
+      "slug": "chto-pokazali-na-letnej-prezentatsii-galaxy-unpacked-2023",
+      "description": "Состоялась одна из главных “технологических” презентаций этого лета - Galaxy Unpacked, на которой Samsung показала сразу несколько знаковых новинок, включая долгожданные Samsung Galaxy Z Flip5 и Samsung Galaxy Z Fold5.",
+      "preview": "",
+      "creation_data": "2023-10-05",
+      "sign_publication": true,
+      "views_count": 36
+    }
+  },
+  {
+    "model": "catalog.blog",
+    "pk": 30,
+    "fields": {
+      "title": "Пик технологии QLED: телевизоры Samsung Neo QLED 4K QN90C и Samsung Neo QLED 4K QN85C",
+      "slug": "pik-tehnologii-qled-televizoryi-samsung-neo-qled-4k-qn90c-i-samsung-neo-qled-4k-qn85c",
+      "description": "Новые Samsung Neo QLED 4K QN90C и Samsung Neo QLED 4K QN85C относятся к редкой категории премиальных телевизоров, которые полностью оправдывают ожидания. Идеальное качество изображения, дизайн в духе минимализма, технологии Neo QLED и Quantum Mini LED, мощнейший процессор и безупречное масштабирование контента, - кажется, такими и должны быть одни из лучших QLED-телевизоров года.",
+      "preview": "",
+      "creation_data": "2023-10-04",
+      "sign_publication": true,
+      "views_count": 69
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 6,
+    "fields": {
+      "product": 4,
+      "number": 0,
+      "name": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 7,
+    "fields": {
+      "product": 1,
+      "number": 15,
+      "name": null,
+      "is_active": true
+    }
+  }
+]

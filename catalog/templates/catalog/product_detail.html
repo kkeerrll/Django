@@ -1,0 +1,32 @@
+{% extends 'catalog/base.html' %}
+{% load my_tags %}
+
+{% block content %}
+<div class="row text-center">
+    <div class="col-md-6 offset-md-3">
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">{{ object.name }}</h4>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">{{ object.price }} руб</h1>
+                <img class="card-img-top"
+                     src="{{ object.photo|my_media }}"
+                     alt="Card image cap">
+                <ul class="list-unstyled mt-3 mb-4 text-start m-3">
+                    <li>{{ object.description }}</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
+                {% if perms.catalog.change_product or user == object.owner %}
+                    <a type="button" href="{% url 'catalog:edit_product' object.pk %}"
+                       class="btn btn-lg btn-block btn-outline-warning">Изменить</a>
+                {% endif %}
+                {% if perms.catalog.delete_product %}
+                    <a type="button" href="{% url 'catalog:product_delete' object.pk %}"
+                       class="btn btn-lg btn-block btn-outline-danger">Удалить</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
